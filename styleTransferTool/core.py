@@ -33,6 +33,3 @@ class styleTransfer():
         input_image = get_input_image(starting_point, content_image=content_image)
         output_image = optim.image_optimization(input_image, perceptual_loss, num_steps=steps)
         show_image(output_image)
-        
-#transfer = styleTransfer()
-#transfer.transferStyle(1, 1000, True, 500, 50, "C:/Users/joseph.chittock/Desktop/model.jpg", "C:/Users/joseph.chittock/Desktop/davinci.jpg")
